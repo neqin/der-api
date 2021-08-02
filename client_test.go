@@ -2,9 +2,10 @@ package deribit
 
 import (
 	"encoding/json"
-	"github.com/frankrap/deribit-api/models"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/neqin/der-api/models"
+	"github.com/stretchr/testify/assert"
 )
 
 func newClient() *Client {

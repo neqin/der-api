@@ -9,8 +9,8 @@ V2 API Documentation: https://docs.deribit.com/v2/
 package main
 
 import (
-	"github.com/frankrap/deribit-api"
-	"github.com/frankrap/deribit-api/models"
+	"github.com/neqin/der-api"
+	"github.com/neqin/der-api/models"
 	"log"
 )
 
@@ -21,6 +21,7 @@ func main() {
 		SecretKey:     "mM5_K8LVxztN6TjjYpv_cJVGQBvk4jglrEpqkw1b87U",
 		AutoReconnect: true,
 		DebugMode:     true,
+		Proxy: "https://123.23.23.21:3222",
 	}
 	client := deribit.New(cfg)
 

@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/chuckpreslar/emission"
-	"github.com/frankrap/deribit-api/models"
+	"github.com/neqin/der-api/models"
 	"github.com/sourcegraph/jsonrpc2"
 	"nhooyr.io/websocket"
 )
