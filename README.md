@@ -3,6 +3,8 @@ Go library for using the Deribit's v2 Websocket API.
 
 V2 API Documentation: https://docs.deribit.com/v2/
 
+original package: https://github.com/nhooyr/websocket
+
 ### Example
 
 ```
